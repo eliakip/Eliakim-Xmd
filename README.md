@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=Eliakim-Xmd" alt="Typing SVG" /></a>
   </p>
   
 ---   
@@ -28,19 +28,16 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 <p align="left">  
 <a href='https://khanmdx.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
-</p>  <p align="left">  
-<a href='https://khanmdx2.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-000000?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
-</p>  
+</p>
 
-
-🚀 Deploy JAWAD-MD
+🚀 ##Deploy
 
 > Deploy on Heroku
 
 
 
 <p align="left">  
-<a href='https://dashboard.heroku.com/new?template=https://github.com/XdTechPro/JAWAD-MD/tree/main' target="_blank"><img alt='Deploy on Heroku' src='https://img.shields.io/badge/Deploy%20on-Heroku-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/></a>  
+<a href='https://dashboard.heroku.com/new?template=https://github.com/eliakip/Eliakim-Xmd' target="_blank"><img alt='Deploy on Heroku' src='https://img.shields.io/badge/Deploy%20on-Heroku-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/></a>  
 </p>
 
 
