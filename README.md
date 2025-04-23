@@ -20,7 +20,7 @@
 
 Start by forking this repository to your own GitHub account. Click the button below to fork:
 
-  <a href="https://github.com/eliakip/Eliakim-Xmd/fork"><img title="𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉" src="https://img.shields.io/badge/FORK-KHAN MD-h?color=green&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/eliakip/Eliakim-Xmd/fork"><img title="𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉" src="https://img.shields.io/badge/FORK-𝖊𝖑𝖎𝖆𝖐𝖎𝖒-𝖝𝖒𝖉h?color=green&style=for-the-badge&logo=stackshare"></a>
 
 > Get Pair Code (Session ID)
 
@@ -43,7 +43,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 🏆 Credits & Contributors
-> JAWAD-MD Owner 
+> Owner 
 - [𝖊𝖑𝖎𝖆𝖐𝖎𝖒](https://github.com/eliakip)
 
 > Dev
