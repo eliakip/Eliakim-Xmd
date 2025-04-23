@@ -234,7 +234,7 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398040175935@ewsletter',
+          newsletterJid: '120363398040175935@newsletter',
           newsletterName: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
           serverMessageId: 143
         }
