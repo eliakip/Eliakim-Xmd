@@ -3,17 +3,11 @@
   
 ---   
 
-> **`Updated To` The Version 3.0**
+> **`Updated To` The Version 1.0**
 
 ---
 
-<a><img src='https://files.catbox.moe/bmvijm.jpeg'/></a>
-
----
-
-<p align="center">
-  <a href="https://github.com/XdTec"><img title="Developer" src="https://img.shields.io/badge/Author-Jawad%20TechX-FF7604.svg?style=big-square&logo=github" /></a>
-</p>
+<a><img src='https://files.catbox.moe/4i1zqg.jpg'/></a>
 
 <div align="center">
   
