@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/XdTechPro/JAWAD-MD";
+    const githubRepoURL = "https://github.com/eliakip/Eliakim-Xmd";
 
     try {
       // Extract username and repo name from the URL
@@ -56,7 +56,7 @@ const repo = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: "1203633023106228@newsletter",
+              newsletterJid: "120363398040175935@newsletter",
               newsletterName: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
               serverMessageId: 143,
             },
