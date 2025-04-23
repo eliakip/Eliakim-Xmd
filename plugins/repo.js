@@ -28,7 +28,7 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/juroe8.jpg" },
+          image: { url: "https://files.catbox.moe/nwsk0s.jpeg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
