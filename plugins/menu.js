@@ -64,7 +64,7 @@ const menu = async (m, Matrix) => {
   const mode = config.MODE === 'public' ? 'public' : 'private';
   const pref = config.PREFIX;
 
-  const validCommands = ['list', 'help', 'menu'];
+  const validCommands = ['list2', 'help2', 'menu2'];
 
   if (validCommands.includes(cmd)) {
     const mainMenu = `
@@ -124,8 +124,8 @@ const menu = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398040175935@ewsletter',
-          newsletterName: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
+          newsletterJid: '120363398040175935@newsletter',
+          newsletterName: "𝖒𝖆𝖗𝖎𝖘𝖊𝖑",
           serverMessageId: 143
         }
       }
@@ -321,7 +321,7 @@ const menu = async (m, Matrix) => {
 
       // Format the full response with title and description
       const fullResponse = `
-╭━━━〔 *${config.BOT_NAME} - ${menuTitle}* 〕━━━┈⊷
+╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│• Owner : *${config.OWNER_NAME}*
 ┃★│• User : *${m.pushName}*
@@ -343,7 +343,7 @@ ${menuResponse}
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398040175935@newetter',
+            newsletterJid: '120363398040175935@newsletter',
             newsletterName: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
             serverMessageId: 143
           }
