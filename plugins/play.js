@@ -1,56 +1,89 @@
-import axios from "axios";
-import yts from "yt-search";
-import config from '../config.cjs';
+import axios from 'axios';
+import config from '../../config.cjs';
 
-const play = async (m, gss) => {
-  const prefix = config.PREFIX;
-  const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
-  const args = m.body.slice(prefix.length + cmd.length).trim().split(" ");
-
-  if (cmd === "play") {
-    if (args.length === 0 || !args.join(" ")) {
-      return m.reply("*Please provide a song name or keywords to search for.*");
+const playHandler = async (m, sock) => {
+  try {
+    if (!m?.from || !m?.body || !sock) {
+      console.error('Invalid message or socket object');
+      return;
     }
 
-    const searchQuery = args.join(" ");
-    m.reply("*Searching for the song...*");
+    const prefix = config.PREFIX || '!';
+    const body = m.body || '';
 
-    try {
-      const searchResults = await yts(searchQuery);
-      if (!searchResults.videos || searchResults.videos.length === 0) {
-        return m.reply(`❌ No results found for "${searchQuery}".`);
+    if (!body.startsWith(prefix)) return;
+
+    const cmd = body.slice(prefix.length).split(' ')[0].toLowerCase();
+    const text = body.slice(prefix.length + cmd.length).trim();
+
+    if (cmd === "song") {
+      if (!text) {
+        await sock.sendMessage(m.from, { text: "🎶 Oops! Please provide a song name or artist! 💖" }, { quoted: m });
+        await m.React('❌');
+        return;
       }
 
-      const firstResult = searchResults.videos[0];
-      const videoUrl = firstResult.url;
+      await m.React('⏳');
 
-      // First API endpoint
-      const apiUrl = `https://api.davidcyriltech.my.id/download/ytmp3?url=${videoUrl}`;
-      const response = await axios.get(apiUrl);
+      try {
+        const apiUrl = `https://apis.davidcyriltech.my.id/play?query=${encodeURIComponent(text)}`;
+        const response = await axios.get(apiUrl);
+        const data = response.data;
 
-      if (!response.data.success) {
-        return m.reply(`❌ Failed to fetch audio for "${searchQuery}".`);
-      }
+        if (!data?.status || !data?.result || !data.result.download_url) {
+          await sock.sendMessage(m.from, { text: "❌ Uh-oh! No results found for that song! 😔" }, { quoted: m });
+          await m.React('❌');
+          return;
+        }
 
-      const { title, download_url } = response.data.result;
+        const { title = 'Unknown', download_url, thumbnail, duration = '0:00' } = data.result;
 
-      // Send the audio file
-      await gss.sendMessage(
-        m.from,
-        {
+        const messagePayload = {
           audio: { url: download_url },
-          mimetype: "audio/mp4",
-          ptt: false,
-        },
-        { quoted: m }
-      );
+          mimetype: "audio/mpeg", // Fixed the typo here!
+          ptt: false, // Ensures it's not sent as a voice note
+          caption: `ᴘʟᴀʏɪɴɢ ɴᴏᴡ: *${title}*\n⏱ Duration: ${duration}\n↻ ◁ II ▷ ↺`,
+          thumbnail: thumbnail,
+          contextInfo: {
+            isForwarded: true,
+            forwardingScore: 999,
+            forwardedNewsletterMessageInfo: {
+              newsletterJid: '120363398040175935@newsletter',
+              newsletterName: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
+              serverMessageId: -1,
+            },
+            externalAdReply: {
+              title: "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉",
+              body: "ᴘʟᴀʏɪɴɢ ɴᴏᴡ ↻ ◁ II ▷ ↺",
+              thumbnailUrl:
+                'https://files.catbox.moe/bmvijm.jpeg',
+              sourceUrl: 'https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t',
+              mediaType: 1,
+              renderLargerThumbnail: true,
+            },
+          },
+        };
 
-      m.reply(`✅ *${title}* has been downloaded successfully!`);
-    } catch (error) {
-      console.error(error);
-      m.reply("❌ An error occurred while processing your request.");
+        try {
+          await sock.sendMessage(m.from, messagePayload, { quoted: m });
+          await m.React('🎵');
+        } catch (audioError) {
+          console.error("Error sending audio:", audioError);
+          await sock.sendMessage(m.from, { text: "❌ Oops! Failed to send the audio! 😓" }, { quoted: m });
+          await m.React('❌');
+        }
+
+      } catch (error) {
+        console.error("Error in play command:", error);
+        await sock.sendMessage(m.from, { text: "❌ Oh no! Something went wrong! 😢" }, { quoted: m });
+        await m.React('❌');
+      }
     }
+  } catch (error) {
+    console.error('Critical error in playHandler:', error);
+    await sock.sendMessage(m.from, { text: "❌ Uh-oh! An unexpected error occurred! 😣 try song2 " }, { quoted: m });
+    await m.React('❌');
   }
 };
 
-export default play;
+export default playHandler;
