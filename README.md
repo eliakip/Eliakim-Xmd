@@ -47,7 +47,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 - [𝖊𝖑𝖎𝖆𝖐𝖎𝖒](https://github.com/eliakip)
 
 > Dev
-- [Marisel]()
+- [Eliakim]()
 - For helping in bot plugin files.
   
 
