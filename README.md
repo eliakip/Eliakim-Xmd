@@ -83,5 +83,5 @@ We welcome contributions to **ELIAKIM XMD**. If you encounter any bugs or have n
 ## 📅 Footer
 
 <p align="center">
-  <small>&copy; 2025 CODE BY ELIAKIM KIPLAGAT /// BMW XMD</small>
+  <small>&copy; 2025 CODE BY ELIAKIM KIPLAGAT /// ELIAKIM XMD</small>
 </p>
