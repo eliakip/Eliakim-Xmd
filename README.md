@@ -53,7 +53,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 # ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
 <p align="center">
-<a href="https://wa.me/25474593171"><img src="https://img.shields.io/badge/Contact Eliakim-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/254745931715"><img src="https://img.shields.io/badge/Contact Eliakim-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://www.youtube.com/@Eliakim_TECH"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@Eliakim_TECH" /><br>
 <p align="center">
