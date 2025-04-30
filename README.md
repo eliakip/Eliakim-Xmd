@@ -1,4 +1,4 @@
-huunda<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=Eliakim-Xmd" alt="Typing SVG" /></a>
+hhuunda<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=FF0000&center=true&width=1000&height=200&lines=Eliakim-Xmd" alt="Typing SVG" /></a>
   </p>
   
 ---   
@@ -57,3 +57,31 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 If you face any issues, report them on GitHub or in the WhatsApp community.
 Happy coding! 🚀 
+
+ 📸 Gallery
+
+<p align="center">
+  <img src="https://files.catbox.moe/4i1zqg.jpg" alt="ELIAKIM XMD Bot" width="250" style="border-radius: 10px; margin: 5px;">
+  <img src="https://files.catbox.moe/4i1zqg.jpg" alt="Feature Screenshot" width="300" style="border-radius: 10px; margin: 5px;">
+  <img src="https://files.catbox.moe/4i1zqg.jpg" alt="User Interaction" width="350" style="border-radius: 10px; margin: 5px;">
+</p>
+
+---
+
+## 🏠 Overview
+
+**ELIAKIM XMD** is a powerful bot solution created by **ELIAKIM KIPLAGAT**. It's designed to be multi-platform, scalable, and efficient for handling user interactions on popular messaging platforms like WhatsApp and Telegram. The bot features multi-language support, ride-booking capabilities, and real-time status tracking for enhanced user engagement.
+
+---
+
+## 📑 Contribution
+
+We welcome contributions to **ELIAKIM XMD**. If you encounter any bugs or have new ideas for features, feel free to open an issue or submit a pull request. Please follow the code of conduct and provide detailed explanations with your pull requests.
+
+---
+
+## 📅 Footer
+
+<p align="center">
+  <small>&copy; 2024 CODE BY ELIAKIM KIPLAGAT /// BMW XMD</small>
+</p>
