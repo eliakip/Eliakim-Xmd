@@ -11,7 +11,7 @@ hhuunda<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.d
 
 <div align="center">
   
-[![WhatsApp Channel](https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t)
+[![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-FF00F8?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VbAF7Og65yD6dbZeBv2t)
 </div>
 
 
