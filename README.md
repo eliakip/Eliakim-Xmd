@@ -26,7 +26,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 
-<p align="https://eliakim-xmd.onrender.com""left">  
+<p align="https://eliakim-xmd-session-3.onrender.com/""left">  
 <a href='' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>
 
