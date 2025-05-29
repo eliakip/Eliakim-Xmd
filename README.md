@@ -26,9 +26,11 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 
 
-<p align="https://eliakim-xmd-session-3.onrender.com/"
-<a href='' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-B700FB?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
-</p>
+<p align="center">
+  <a href="https://eliakim-xmd.onrender.com">
+    <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_GET_ELIAKIM_SESSION-000000?style=for-the-badge&logo=eliakim&logoColor=white&color=skyblue" width="260" height="50"/>
+  </a>
+ 
 
 🚀 ##Deploy
 
