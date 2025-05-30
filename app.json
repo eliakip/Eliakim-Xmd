@@ -3,7 +3,7 @@
   "name": "ELIAKIM-XMD",
   "description": "Best WhatsApp bot developed by Eliakim kiplagat",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
+  "logo": "https://files.catbox.moe/4i1zqg.jpg",
   "repository": "https://github.com/ekitale/maths-project",
   "success_url": "/",
   "stack": "heroku-24",
@@ -55,7 +55,7 @@
     },
     "BOT_IMAGE": {
       "description": "Image URL for your bot menu",
-      "value": "https://files.catbox.moe/h2ydge.jpg",
+      "value": "https://files.catbox.moe/4i1zqg.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
