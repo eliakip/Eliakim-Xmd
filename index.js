@@ -6,7 +6,7 @@
 
 const axios = require('axios');
 const cheerio = require('cheerio');
-const adams = require("./config");
+const eliakim = require("./config");
 
 async function fetchINDEXUrl() {
   try {
