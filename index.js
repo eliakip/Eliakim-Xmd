@@ -2,7 +2,7 @@
 //  >> A superposition of elegant code states                           
 //  >> Collapsed into optimal execution                                
 //  >> Scripted by Sir Eliakim Kiplagat                                 
-//  >> Version: 8.3.5-quantum.7
+//  >> Version: 8.3.5-Tech.7
 
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -10,7 +10,7 @@ const adams = require("./config");
 
 async function fetchINDEXUrl() {
   try {
-    const response = await axios.get(adams.BWM_XMD);
+    const response = await axios.get(adams.ELIAKIM-XMD);
     const $ = cheerio.load(response.data);
 
     const targetElement = $('a:contains("INDEX")');
