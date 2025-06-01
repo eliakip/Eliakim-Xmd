@@ -1,6 +1,6 @@
-name: eliakim-xmd
+name: jawad-md
 services:
-  - name: eliakim-xmd-service
+  - name: jawad-md-service
     type: web
     ports:
       - 5000
