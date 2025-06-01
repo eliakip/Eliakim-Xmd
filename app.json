@@ -1,8 +1,8 @@
 {
-  "name": "Eliaki-xmd",
-  "description": "The Best",
-  "logo": "https://files.catbox.moe/bmvijm.jpeg",
-  "keywords": ["eliakim-Xmd"],
+  "name": "ELIAKIM-XMD",
+  "description": "I am ELIAKIM-XMD WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
+  "logo": "https://files.catbox.moe/qk52l3.jpg",
+  "keywords": ["ELIAKIM-XMD"],
   "repository": "https://github.com/eliakip/ELIAKIM-XMD",
   "stack": "container",
   "env": { 
@@ -19,17 +19,17 @@
     "BOT_NAME": {
       "description": "change bot name what you want!",
       "required": false,
-      "value": "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉"
+      "value": "ELIAKIM-XMD"
     },
     "MENU_IMAGE": {
       "description": "change menu image if want otherwise use default",
       "required": false,
-      "value": "https://files.catbox.moe/nwsk0s.jpeg"
+      "value": "https://files.catbox.moe/6852sf.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and etc",
       "required": false,
-      "value": "𝖊𝖑𝖎𝖆𝖐𝖎𝖒 𝖝𝖒𝖉"
+      "value": "ELIAKIM"
     },
     "ANTI_DELETE": {
       "description": "set path for antidelete for same chat set to same",
@@ -55,17 +55,17 @@
     "STATUS_READ_MSG": {
       "description": "set your status reply message",
       "required": false,
-      "value": "*Status seen*"
+      "value": "*Status Seen By ELIAKIM-XMD 👻🤍*"
     },
     "OWNER_NAME": {
       "description": "set your status reply message",
       "required": false,
-      "value": "𝖊𝖑𝖎𝖆𝖐𝖎𝖒"
+      "value": "JINX-SMD"
     },
     "OWNER_NUMBER": {
       "description": "set your status reply message",
       "required": false,
-      "value": "254........X"
+      "value": "254745931715"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
