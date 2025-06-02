@@ -40,7 +40,7 @@ Start by forking this repository to your own GitHub account. Click the button be
     <img title="GET SESSION OPT 2" src="https://img.shields.io/badge/🔑_GET_ELIAKIM_SESSION 2-000000?style=for-the-badge&logo=eliakim&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
   
-<a href="https://www.ibrahimadams.site/Deploy">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/eliakip/Eliakim-Xmd">
     <img title="DEPLOY QUANTUM BOT" src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=white&color=FF00FF" width="260" height="50"/>
   </a>
   
