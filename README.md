@@ -39,7 +39,11 @@ Start by forking this repository to your own GitHub account. Click the button be
   <a href="https://pairingco-632261b61f75.herokuapp.com/">
     <img title="GET SESSION OPT 2" src="https://img.shields.io/badge/🔑_GET_ELIAKIM_SESSION 2-000000?style=for-the-badge&logo=eliakim&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
- 
+
+ <p align="center">
+  <a href="https://render.com">
+    <img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260" height="50"/>
+  </a>
 
 🚀 ##Deploy
 
