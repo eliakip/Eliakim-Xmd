@@ -103,7 +103,7 @@ Happy coding! 🚀
 
 ## 🏠 Overview
 
-**ELIAKIM XMD** is a powerful bot solution created by **ELIAKIM KIPLAGAT**. It's designed to be multi-platform, scalable, and efficient for handling user interactions on popular messaging platforms like WhatsApp and Telegram. The bot features multi-language support, ride-booking capabilities, and real-time status tracking for enhanced user engagement.
+**ELIAKIM XMD** is a powerful bot solution created by **ELIAKIM TECH**. It's designed to be multi-platform, scalable, and efficient for handling user interactions on popular messaging platforms like WhatsApp and Telegram. The bot features multi-language support, ride-booking capabilities, and real-time status tracking for enhanced user engagement.
 
 ---
 
@@ -116,5 +116,5 @@ We welcome contributions to **ELIAKIM XMD**. If you encounter any bugs or have n
 ## 📅 Footer
 
 <p align="center">
-  <small>&copy; 2025 CODE BY ELIAKIM KIPLAGAT /// ELIAKIM XMD</small>
+  <small>&copy; 2025 CODE BY ELIAKIM TECH /// ELIAKIM XMD</small>
 </p>
