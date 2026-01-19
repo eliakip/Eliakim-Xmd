@@ -30,7 +30,7 @@
     },
     "REPLY_STATUS_TEXT": {
       "description": "Enter here your message for your bot to notify people that you have viewed there status",
-      "value": "ELIAKIM-/XMD ✅",
+      "value": "ELIAKIM-XMD ✅",
       "required": false
     },
     "AUTO_READ_STATUS": {
