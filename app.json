@@ -50,7 +50,7 @@
     },
     "BOT_NAME": {
       "description": "Name for your bot",
-      "value": "BWM-XMD",
+      "value": "ELIAKIM-XMD",
       "required": false
     },
     "BOT_IMAGE": {
