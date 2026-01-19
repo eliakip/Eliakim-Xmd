@@ -116,5 +116,5 @@ We welcome contributions to **ELIAKIM XMD**. If you encounter any bugs or have n
 ## 📅 Footer
 
 <p align="center">
-  <small>&copy; 2025 CODE BY ELIAKIM TECH /// ELIAKIM XMD</small>
+  <small>&copy; 2026 CODE BY ELIAKIM TECH /// ELIAKIM-XMD</small>
 </p>
